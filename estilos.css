@@ -1,0 +1,61 @@
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-attachment: fixed;
+
+}
+
+footer{
+    background-color: gray;
+    font-family: 'Tangerine';
+    font-size: 25px;
+    color: white;
+    text-align:right;
+}
+
+#titulos{
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color: #f8ff8f;
+    font-weight: bold ;
+
+
+}
+
+#subtitulos{
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: #F0FF00;
+
+
+}
+
+#parrafo{
+    font-size: 25px;
+    font-family: 'Architects Daughter', cursive;
+    color: #FDFEF8;
+    /*font-style: italic;*/
+
+}
+
+#hiper{
+    font-size: 25px;
+    font-family: "Century Gothic";
+    color: #FC0F00;
+
+}
+
+
+#registro{
+
+    color: white;
+}
+
+
+#declaracion{
+    font-size: 18px;
+    /*font-family: 'Architects Daughter', cursive;*/
+    color: #FDFEF8;
+    font-style: italic;
+
+}
