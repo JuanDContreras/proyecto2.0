@@ -10,24 +10,111 @@
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
 
 </head>
 
 <body>
     <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand" href="index.html"><H3> TØP</H3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="historia.html">Historia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="album.html">Blurryface</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="https://loc.twentyonepilots.com/?ref=https://www.google.com/" target="_blank">Pagina oficial</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="https://www.youtube.com/user/twentyonepilots" target="_blank">Canal YouTube</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="registro.html">Registro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          
+            
+          </nav>
+
+
         <center><H1 id="titulos">REGISTRO</H1></center>
-        <center><img src="img/img1.jpg"></center>
+        
 
     </header>
 
     <main id="registro">
 
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <center><img src="img/boot1.jpg" class="d-block w-75" alt="..."></center>
+              </div>
+              <div class="carousel-item">
+                <center><img src="img/boot2.jpg" class="d-block w-75" alt="..."></center>
+              </div>
+              <div class="carousel-item">
+                <center><img src="img/boot3.jpg" class="d-block w-75" alt="..."></center>
+              </div>
+             
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
         <h3 id="subtitulos"> Ingresar datos</h3>
 
-        <input type="text" placeholder="Nombres">
-        <input type="text" placeholder="Usuario">
-        <input type="password" placeholder="Contraseña">
-        <input type="email" placeholder="E-mail">
+        <div class= "container" id="parrafo">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <input type="text" placeholder="Nombres">
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <input type="text" placeholder="Usuario">
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <input type="email" placeholder="E-mail">
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <input type="password" placeholder="Contraseña">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        
+        
+        
+        
         <p id="declaracion">Sus datos personales, serán utilizados para las siguientes finalidades: a) Registrar su inscripción a
             la modalidad de capacitación que haya elegido; b) generar listas de asistencias y validación de las
             mismas; c) emisión de constancia de participación o asistencia de acuerdo a la modalidad de que
@@ -54,15 +141,41 @@
 
 
     </main>
-    
+
     <footer>
-        <p>creado por:</br>JUAN    DAVID    CONTRERAS <br> juand.20@live.com</p>
+
+        
+        
 
 
-    </footer>
+        <div class= "container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a class="navbar-brand" href="https://github.com/JuanDContreras" target="_blank"><img src="img/icono.png" alt="" width="70" height="70"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+                    </button>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>creado por:</br>JUAN    DAVID    CONTRERAS <br> juand.20@live.com</p>
+                 
+                </div>
+
+
+            </div>
+
+
+        </div>
 
 
 
+
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 
